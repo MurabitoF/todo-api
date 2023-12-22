@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "node --watch app.js",
     "debug": "node --inspect app.js",
-    "test": "jest --watchAll --detectOpenHandles"
+    "test": "jest --watchAll --detectOpenHandles",
+    "lint": "eslint . --ext .js,"
   },
   "author": "",
   "license": "ISC",
