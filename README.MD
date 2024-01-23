@@ -1,4 +1,4 @@
-# Task API
+# To Do API
 
 A small api for task management, it's made in Express and MongoDB.
 
